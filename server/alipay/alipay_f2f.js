@@ -32,8 +32,8 @@ class Alipay_f2f {
     this._config['gatewayUrl'] = 'https://openapi.alipay.com/gateway.do'
     this._config['mapiUrl'] = 'https://mapi.alipay.com/gateway.do'
     // 实际上线时候
-    if(config.baseUrl === 'https://www.xgou168.com/web/1.0') {
-          this._config['appid'] = '2016081801768485'
+    if(config.baseUrl === 'https://www.xxx.com/web/1.0') {
+          this._config['appid'] = ''
           this._config['merchantPrivateKey'] = `-----BEGIN RSA PRIVATE KEY-----
 -----END RSA PRIVATE KEY-----`
           this._config['merchantPublicKey'] =
