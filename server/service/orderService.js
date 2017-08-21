@@ -2,7 +2,6 @@
 var commonUtil = require('../helpers/commonUtil')
 var generateId = require('../helpers/generateId')
 var BaseService = require('../service/baseService')
-var scaleService = require('../service/scaleService.js')
 var mongodbDao = require('../storage/mongodbDao').getWorkInstance()
 var crypto = require('crypto')
 var Promise = require('bluebird')
